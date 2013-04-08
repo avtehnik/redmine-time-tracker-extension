@@ -8,14 +8,16 @@ window.addEvent('domready',function(){
 
     window.projects = function(data){
     
+        
+    }
+
+    DataLoader.loadProjects(function(data){
         data.projects.each(function(p){
             new Element('div',{
                 'html':p.name
                 }).inject(document.body);  
         })
         console.log(data);
-    }
-
-    DataLoader.loadProjects("projects")
+    })
 
 });

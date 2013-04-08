@@ -5,6 +5,7 @@
         <title></title>
         <script type="text/javascript" src="js/mootools-core.js" ></script>
         <script type="text/javascript" src="js/mootools-more.js" ></script>
+        <script type="text/javascript" src="js/Request.Redmine.js" ></script>
         <script type="text/javascript" src="js/loader.js" ></script>
         <script type="text/javascript" src="js/main.js" ></script>
         
